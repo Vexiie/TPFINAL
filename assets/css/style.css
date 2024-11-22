@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #478fd3;
+}
+body {
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+h1,
+h2 {
+    color: #444;
+}
+h3 {
+    color: #999;
+}
+.btn {
+    background: var(--main-color);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover {
+    color: var(--main-color);
+    background: white;
+    padding: 3px 8px;
+    border: 2px solid var(--main-color);
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid #999;
+}
+table {
+    padding: 10px;
+}
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+.side-menu {
+    position: fixed;
+    background: var(--main-color);
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.side-menu .brand-name {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-menu li a {
+    color: white;
+}
+.side-menu li i {
+    margin-right: 5px;
+}
+.side-menu li {
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.container {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: #f1f1f1;
+}
+.container .content {
+    position: relative;
+    margin-top: 2vh;
+    min-height: 90vh;
+    background: #f1f1f1;
+}
+.container .content .content-2 {
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.recent-payments input[type=submit]{
+    margin-left: 25px;
+}
+.container .content .content-2 .recent-payments {
+    min-height: 50vh;
+    flex: 5;
+    background: white;
+    margin: 0 25px 25px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .content-2 .recent-payments {
+    padding: 25px;
+}
+
+
+.container .content .content-2 .recent-payments .inventory .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .content .content-2 .recent-payments .inventory .product .buttons input[type=number]{
+    width: 100%;
+}
+
+.container .content .content-2 .recent-payments .inventory .product .buttons input[type=submit]{
+    margin: 0;
+    width: 100%;
+    margin-top: 5%;
+    padding: 10px 15px;
+    border: none;
+}
+
+.container .content .content-2 .recent-payments .inventory .product .buttons input[type=submit]:hover {
+    border: 1px solid var(--main-color);
+}
+
+.container .content .content-2 .recent-payments .inventory{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.container .content .content-2 .recent-payments .inventory  form input[type=submit] {
+    width: 200px;
+}
+
+.container .content .content-2 .recent-payments .options input {
+    padding: 10px 15px;
+    width: 10%;
+    border: none;
+}
+
+.container .content .content-2 .recent-payments .options input:hover {
+    border: 1px solid var(--main-color);
+}
+
+.container .content .content-2 .recent-payments form {
+    margin-top: 5%;
+}
+
+.container .content .content-2 .recent-payments form .element {
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.container .content .content-2 .recent-payments form .element input {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.container .content .content-2 .recent-payments form input[type=submit] {
+    margin: 0;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+}
+
+.container .content .content-2 .recent-payments form input[type=submit] {
+    border: 1px solid var(--main-color);
+}

@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .content .element {
+    margin-bottom: 15px;
+}
+
+form .content .element input {
+    width: 85%;
+    padding: 5px 15px;
+}
+
+form input[type=submit] {
+    width: 100%;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid black;
+    color: black;
+}
