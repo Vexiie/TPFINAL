@@ -1,0 +1,51 @@
+Preguntas Básicas/Importantes (con las respuestas de Olaso):
+¿De qué trata la empresa?
+La empresa se encarga del desarrollo de las plazas o zonas urbanas que requieran juegos, fabrican juegos en base a plástico, suelen hacer los pedidos y tienen una persona que se encarga del diseño, los dos grandes clientes son la provincia de buenos aires y el gobierno de la ciudad (Crosijuegos)
+
+¿Cuántas cámaras son necesarias aprox por habitación?
+Tres cámaras por habitación enfocando a zonas sensibles
+
+¿Todas las áreas pueden tener el mismo nivel de velocidad de red?
+Todas las áreas pueden tener la misma velocidad por igual.
+
+¿Hay alguna  normativa que debemos seguir en el diseño de la infraestructura o la red?
+Lo más standard, cómodo y estético posible
+
+¿Qué habitaciones necesitan wifi?
+Por cuestiones de seguridad lo más físico posible, a lo sumo en la cafeterías o zonas de recreacion
+
+¿Qué tipo de cableado tenemos que usar?
+Categoría 5 o 5E en adelante
+
+¿Cuáles serían las áreas con mayor tránsito de cables?
+Mientras que los cables vayan por donde tienen que ir xd mientras que se respete los 90 metros
+
+¿Hay algún obligatorio para agregar en el hardware en los espacios de diseñadores? (monitores OLED, tabletas gráficas, etc.)
+Una buena PC para los diseñadores (con tarjetas gráficas).
+
+¿Se necesita un sistema de comunicaciones interno?
+Por el momento no.
+
+Las grabaciones de las cámaras de seguridad, ¿serán en la nube o en servidores locales?
+servidor local (base de datos).
+
+¿Se necesita implementar un sistema de autenticación para el acceso de las grabaciones de las cámaras?
+no.
+
+¿Cuáles son los turnos de los empleados? ¿Se necesitan reportes diferenciados por estos turnos?
+El ingreso o egreso de 8 am a 6 pm.
+
+¿Hay alguna especificación en la infraestructura de cableado? (ej: Canaletas o Bandejas)
+Solo que sea funcional y estético uwu.
+
+¿Cuántos baños se necesitan en la infraestructura?
+de 2 a 3 baños grandes.
+
+¿La instalación de la electricidad se hace por nuestra cuenta?
+no.
+
+¿Es necesario agregar ventilación (ventana)?
+no.
+
+Presupuesto: 
+5 millones de dólares.
